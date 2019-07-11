@@ -23,7 +23,7 @@ spec = Hoe.spec 'text-format' do
   self.extra_rdoc_files = FileList["*.rdoc"].to_a
   self.licenses = ["MIT", "Artistic 2.0", "GPL-2"]
 
-  dependency 'text-hyphen', '~> 1.0'
+  dependency 'text-hyphen', ['~> 1.4','>=1.4.1']
 
   self.extra_dev_deps << ['hoe-bundler', '~> 1.2']
   self.extra_dev_deps << ['hoe-doofus', '~> 1.0']
